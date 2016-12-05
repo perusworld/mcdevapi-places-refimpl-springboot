@@ -1,6 +1,10 @@
 # Maven Spring 3.x Web/REST App Base #
 Maven/Spring 3.x Web/REST app base code
 
+## Requirements ##
+1. JDK 1.7+
+1. Maven
+
 ## Run with Remote Debug ##
 	set MAVEN_OPTS=-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000
 	mvn -Djetty.http.port=3000 jetty:run
