@@ -1,16 +1,19 @@
-# Maven Spring 3.x Web/REST App Base #
-Maven/Spring 3.x Web/REST app base code
+# Maven Spring Boot Web/REST App Base #
+Maven/Spring Boot Web/REST app base code
 
 ## Requirements ##
-1. JDK 1.7+
+1. JDK 1.8+
 1. Maven
 
 ## Run with Remote Debug ##
 	set MAVEN_OPTS=-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000
-	mvn -Djetty.http.port=3000 jetty:run
+	mvn -Dserver.port=3000 spring-boot:run
 
-## Package War ##
+## Package Executable jar/war ##
 	mvn clean package
+
+## Running the packaged jar ##
+	java -jar target\spring-boot-base-0.1.war
 
 ## Test App ##
 Open browser and goto [http://localhost:3000](http://localhost:3000)
