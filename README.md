@@ -12,7 +12,7 @@ Maven/Spring 3.x Web/REST app base code
 ## Package War ##
 	mvn clean package
 
-## Test App ## 
+## Test App ##
 Open browser and goto [http://localhost:3000](http://localhost:3000)
 
 ## Test REST APIs -cURL ##
