@@ -1,0 +1,3 @@
+[submodule "src/main/resources/ref-html"]
+	path = src/main/resources/ref-html
+	url = https://github.com/perusworld/mcdevapi-places-refimpl-web.git
