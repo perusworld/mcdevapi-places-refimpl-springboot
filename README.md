@@ -32,7 +32,7 @@ mvn clean package
 
 ## Running the packaged jar ##
 ```bash
-	java -jar target\spring-boot-base-0.1.war
+	java -jar target\mcdevapi-places-refimpl-springboot-0.1.war
 ```
 
 ## Test App ##
